@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>popup</title>
+  <style>
+    body{
+      width: 300px;
+    }
+    .mybutton{
+      width: 55px;
+      font-size: 100%;
+      box-sizing: border-box;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <p><img style="vertical-align: text-top;" src="icons//icon16.png"> EdgeSiteMute</p>
+  <p>muted list:</p>
+  <select style="width:300px; box-sizing:border-box;" name="mutedurl" id="urllist" size="5">
+  </select>
+  <div align="right">
+    <input type="button" id="deleteurl" value="delete" class="mybutton"/>
+  </div>
+  <script src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/popup.js"></script>
+  <input style="width:300px; box-sizing:border-box;" type="url" id="nowurl"/>
+  <div align="right">
+    <input type="button" id="addurl" value="add" class="mybutton"/>
+  </div>
+</body>
+</html>
