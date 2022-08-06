@@ -1,6 +1,6 @@
 # EdgeSiteMute
 
-the extension to mute a specific site
+the extension to mute a specific site(It is similar to chrome's "mute this site")
 
 # How to use
 
